@@ -3,7 +3,7 @@ import math
 def calculate_gallons(radius_in_inches, depth_in_feet):
      # Convert radius from inches to feet
      radius_in_feet = radius_in_inches / 12
-     # Define constant
+     # Define constant pi
      pi = 3.1415
      # Calculate the volume of the well casing in cubic feet
      volume_in_cubic_feet = float(pi) * (radius_in_feet ** 2) * depth_in_feet
